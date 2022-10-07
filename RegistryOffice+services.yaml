@@ -96,36 +96,36 @@ clients:
 
   - http-client:
       application-name: NewRelease
-      release-number: 2.0.0
-      uuid: ro-2-0-0-http-c-bm-nr-2-0-0-000
+      release-number: 1.0.0
+      uuid: ro-2-0-0-http-c-bm-nr-1-0-0-000
     tcp-client:
       ip-address: 1.1.3.8
       tcp-port: 3008
-      uuid: ro-2-0-0-tcp-c-bm-nr-2-0-0-000
+      uuid: ro-2-0-0-tcp-c-bm-nr-1-0-0-000
     operation-clients:
       own-oam:
         basic:
           - service-name: /v1/embed-yourself
-            uuid: ro-2-0-0-op-c-bm-nr-2-0-0-000
+            uuid: ro-2-0-0-op-c-bm-nr-1-0-0-000
           - service-name: /v1/redirect-service-request-information
-            uuid: ro-2-0-0-op-c-bm-nr-2-0-0-001
+            uuid: ro-2-0-0-op-c-bm-nr-1-0-0-001
           - service-name: /v1/redirect-oam-request-information
-            uuid: ro-2-0-0-op-c-bm-nr-2-0-0-002
+            uuid: ro-2-0-0-op-c-bm-nr-1-0-0-002
           - service-name: /v1/inquire-oam-request-approvals
-            uuid: ro-2-0-0-op-c-bm-nr-2-0-0-003
+            uuid: ro-2-0-0-op-c-bm-nr-1-0-0-003
           - service-name: /v1/redirect-topology-change-information
-            uuid: ro-2-0-0-op-c-bm-nr-2-0-0-004
+            uuid: ro-2-0-0-op-c-bm-nr-1-0-0-004
         individual:
           - service-name: /v1/inquire-application-type-approvals
-            uuid: ro-2-0-0-op-c-im-nr-2-0-0-000
+            uuid: ro-2-0-0-op-c-im-nr-1-0-0-000
           - service-name: /v1/notify-deregistrations
-            uuid: ro-2-0-0-op-c-im-nr-2-0-0-001
+            uuid: ro-2-0-0-op-c-im-nr-1-0-0-001
           - service-name: /v1/notify-approvals
-            uuid: ro-2-0-0-op-c-im-nr-2-0-0-002
+            uuid: ro-2-0-0-op-c-im-nr-1-0-0-002
           - service-name: /v1/notify-withdrawn-approvals
-            uuid: ro-2-0-0-op-c-im-nr-2-0-0-003
+            uuid: ro-2-0-0-op-c-im-nr-1-0-0-003
           - service-name: /v1/register-application
-            uuid: ro-2-0-0-op-c-im-nr-2-0-0-004
+            uuid: ro-2-0-0-op-c-im-nr-1-0-0-004
       service:
         basic:
         individual:

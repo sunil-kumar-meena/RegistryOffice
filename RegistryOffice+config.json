@@ -1112,7 +1112,7 @@
                 "application-name": "NewRelease"
               },
               "http-client-interface-configuration": {
-                "release-number": "2.0.0"
+                "release-number": "1.0.0"
               }
             }
           }
